@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Initial Commit">
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Installed package yfinance and retrieved the aapl quarterly balance sheet and information">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock_Analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Analyzer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +64,29 @@
       <option name="project" value="LOCAL" />
       <updated>1708370976460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Installed package yfinance and retreived the aapl quarterly balancesheet and information">
+      <option name="closed" value="true" />
+      <created>1708372095922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708372095922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Installed package yfinance and retrieved the aapl quarterly balance sheet and information">
+      <option name="closed" value="true" />
+      <created>1708372122728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708372122728</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Installed package yfinance and retreived the aapl quarterly balancesheet and information" />
+    <MESSAGE value="Installed package yfinance and retrieved the aapl quarterly balance sheet and information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installed package yfinance and retrieved the aapl quarterly balance sheet and information" />
   </component>
 </project>
