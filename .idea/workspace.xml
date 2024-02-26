@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Dividends and balance sheet get sent to a Excel file, but format is wrong and I only can send one at a time.">
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Added quarterly income statements and cashflow statements as well, all in separate files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple_data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apple_data_dividends.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_income_statement.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_income_statement.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stock_Analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Analyzer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +101,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708547385795</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added quarterly income statements and cashflow statements as well, all in separate files.">
+      <option name="closed" value="true" />
+      <created>1708637333535</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708637333535</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added quarterly income statements and cashflow statements as well, all in separate files.">
+      <option name="closed" value="true" />
+      <created>1708637343582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708637343582</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,6 +126,7 @@
     <MESSAGE value="Installed package yfinance and retrieved the aapl quarterly balance sheet and information" />
     <MESSAGE value="This is a test to see commit and push work after changing github username." />
     <MESSAGE value="Dividends and balance sheet get sent to a Excel file, but format is wrong and I only can send one at a time." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dividends and balance sheet get sent to a Excel file, but format is wrong and I only can send one at a time." />
+    <MESSAGE value="Added quarterly income statements and cashflow statements as well, all in separate files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added quarterly income statements and cashflow statements as well, all in separate files." />
   </component>
 </project>

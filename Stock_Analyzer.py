@@ -33,3 +33,6 @@ income_statement_df = aapl.quarterly_income_stmt
 # Save the data to an Excel file
 income_statement_df.to_excel("Apple_data_quarterly_income_statement.xlsx")
 
+df = pd.read_excel("Apple_data_quarterly_balance_sheet.xlsx")
+print(df)
+
