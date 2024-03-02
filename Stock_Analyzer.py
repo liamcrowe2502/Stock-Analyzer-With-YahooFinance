@@ -36,3 +36,14 @@ income_statement_df.to_excel("Apple_data_quarterly_income_statement.xlsx")
 df = pd.read_excel("Apple_data_quarterly_balance_sheet.xlsx")
 print(df)
 
+#Add all the data into a large spreadsheet
+"""
+Format the data correctly
+Widen the columns
+Correct the numbers in the sheets
+"""
+
+"""
+Undertand the how to change each of the data sheets
+Look at yfinance library and openpyxl
+"""
