@@ -50,8 +50,8 @@ file_path = os.path.join(output_path, 'data_combined.xlsx')
 wb = load_workbook(file_path)
 ws = wb.active
 
-# Define the width for each column
-column_widths = {'A': 20, 'B': 20}
+# Define the width for each column in the original sheet
+column_widths = {'A': 40, 'B': 20, 'C': 20, 'D': 20, 'E': 20, 'F': 20, 'G': 20, 'H': 20}
 
 for col, width in column_widths.items():
     ws.column_dimensions[col].width = width
@@ -75,6 +75,10 @@ for cell in ws.iter_cols(min_col=3, max_col=8, min_row=1, max_row=1):
 for row in ws.iter_rows(min_row=85, max_row=233, min_col=3, max_col=8):
     for cell in row:
         cell.value = None
+
+# Stretch the columns in the Extracted_Data sheet
+for col, width in column_widths.items():
+    new_ws.column_dimensions[col].width = width
 
 # Save the modified Excel file
 wb.save(file_path)
