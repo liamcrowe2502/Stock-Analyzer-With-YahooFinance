@@ -51,7 +51,7 @@ wb = load_workbook(file_path)
 ws = wb.active
 
 # Define the width for each column
-column_widths = {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20, 'F': 20, 'G': 20, 'H': 20}
+column_widths = {'A': 20, 'B': 20}
 
 for col, width in column_widths.items():
     ws.column_dimensions[col].width = width
@@ -66,6 +66,15 @@ new_ws.append(headers)
 # Copy data from C85:H233
 for row in ws.iter_rows(min_row=85, max_row=233, min_col=3, max_col=8):
     new_ws.append([cell.value for cell in row])
+
+# Clear the original data in C1:H1 and C85:H233
+for cell in ws.iter_cols(min_col=3, max_col=8, min_row=1, max_row=1):
+    for c in cell:
+        c.value = None
+
+for row in ws.iter_rows(min_row=85, max_row=233, min_col=3, max_col=8):
+    for cell in row:
+        cell.value = None
 
 # Save the modified Excel file
 wb.save(file_path)

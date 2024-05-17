@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Stretched the columns in the data_combined Excel sheet.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Moved bal, income, cashflow to separate sheet">
       <change beforePath="$PROJECT_DIR$/Apple_data_dividends.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_dividends.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_income_statement.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_income_statement.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stock_Analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Analyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_combined.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715981105274</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Moved bal, income, cashflow to separate sheet">
+      <option name="closed" value="true" />
+      <created>1715981588277</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715981588277</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +174,7 @@
     <MESSAGE value="Stetched the columns in the data_combined excel sheet." />
     <MESSAGE value="Stretched the columns in the data_combined excel sheet." />
     <MESSAGE value="Stretched the columns in the data_combined Excel sheet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stretched the columns in the data_combined Excel sheet." />
+    <MESSAGE value="Moved bal, income, cashflow to separate sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved bal, income, cashflow to separate sheet" />
   </component>
 </project>
