@@ -56,4 +56,16 @@ column_widths = {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20, 'F': 20, 'G': 20, 
 for col, width in column_widths.items():
     ws.column_dimensions[col].width = width
 
+# Move data from C85:H233 to a new sheet and include C1:H1 as headers
+new_ws = wb.create_sheet(title='Extracted_Data')
+
+# Copy headers (C1:H1)
+headers = [cell.value for cell in ws[1][2:8]]
+new_ws.append(headers)
+
+# Copy data from C85:H233
+for row in ws.iter_rows(min_row=85, max_row=233, min_col=3, max_col=8):
+    new_ws.append([cell.value for cell in row])
+
+# Save the modified Excel file
 wb.save(file_path)

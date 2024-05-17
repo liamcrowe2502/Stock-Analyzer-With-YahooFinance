@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="All data is now combined into one excel spreadsheet">
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Stretched the columns in the data_combined Excel sheet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_dividends.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_dividends.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_income_statement.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_income_statement.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stock_Analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stock_Analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_combined.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710023074394</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Stretched the columns in the data_combined Excel sheet.">
+      <option name="closed" value="true" />
+      <created>1715981105274</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715981105274</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +165,9 @@
     <MESSAGE value="Now able to read excel files using the pandas library." />
     <MESSAGE value="Testing to see if data is all in one file." />
     <MESSAGE value="All data is now combined into one excel spreadsheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="All data is now combined into one excel spreadsheet" />
+    <MESSAGE value="Stetched the columns in the data_combined excel sheet." />
+    <MESSAGE value="Stretched the columns in the data_combined excel sheet." />
+    <MESSAGE value="Stretched the columns in the data_combined Excel sheet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stretched the columns in the data_combined Excel sheet." />
   </component>
 </project>
