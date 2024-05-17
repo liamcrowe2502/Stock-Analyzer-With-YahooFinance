@@ -1,13 +1,10 @@
 import yfinance as yf
 import pandas as pd
+import numpy as np
 import os
+from openpyxl import load_workbook
 
-""" 
-    Install openpyxl if not already installed.
-    Can cause error with sending data to excel fill if not installed
-    You can install it using: pip install openpyxl
-"""
-
+# Fetch and save data as before
 aapl = yf.Ticker("AAPL")
 
 # Fetch dividends data and parse 'Date' column during retrieval
@@ -34,11 +31,8 @@ balance_sheet_df = aapl.quarterly_balance_sheet
 # Save the data to an Excel file
 balance_sheet_df.to_excel("Apple_data_quarterly_balance_sheet.xlsx")
 
-#df = pd.read_excel("Apple_data_quarterly_balance_sheet.xlsx")
-#print(df)
-
-#Add all the data into a large spreadsheet
-folder_path = 'D:\CodeProjects\Python\Stock-Analyzer-With-YahooFinance'
+# Add all the data into a large spreadsheet
+folder_path = 'D:\\CodeProjects\\Python\\Stock-Analyzer-With-YahooFinance'
 files = [f for f in os.listdir(folder_path) if f.endswith('.xlsx')]
 
 dataFrames = []
@@ -48,17 +42,18 @@ for file in files:
 
 merged_df = pd.concat(dataFrames)
 
-output_path = 'D:\CodeProjects\Python\Stock-Analyzer-With-YahooFinance'
+output_path = 'D:\\CodeProjects\\Python\\Stock-Analyzer-With-YahooFinance'
 merged_df.to_excel(os.path.join(output_path, 'data_combined.xlsx'), index=False)
 
+# Stretch the columns in the combined Excel file
+file_path = os.path.join(output_path, 'data_combined.xlsx')
+wb = load_workbook(file_path)
+ws = wb.active
 
-"""
-Format the data correctly
-Widen the columns
-Correct the numbers in the sheets
-"""
+# Define the width for each column
+column_widths = {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20, 'F': 20, 'G': 20, 'H': 20}
 
-"""
-Undertand the how to change each of the data sheets
-Look at yfinance library and openpyxl
-"""
+for col, width in column_widths.items():
+    ws.column_dimensions[col].width = width
+
+wb.save(file_path)

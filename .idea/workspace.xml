@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Testing to see if data is all in one file.">
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="All data is now combined into one excel spreadsheet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple_data_combined.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_dividends.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_dividends.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" afterDir="false" />
@@ -37,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Stock_Analyzer.executor": "Run",
-    "Python.testing.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/CodeProjects/Python/Stock-Analyzer-With-YahooFinance",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Stock_Analyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeProjects/Python/Stock-Analyzer-With-YahooFinance&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -136,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709413146015</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="All data is now combined into one excel spreadsheet">
+      <option name="closed" value="true" />
+      <created>1710023074393</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710023074394</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +155,7 @@
     <MESSAGE value="Added quarterly income statements and cashflow statements as well, all in separate files." />
     <MESSAGE value="Now able to read excel files using the pandas library." />
     <MESSAGE value="Testing to see if data is all in one file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing to see if data is all in one file." />
+    <MESSAGE value="All data is now combined into one excel spreadsheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="All data is now combined into one excel spreadsheet" />
   </component>
 </project>
