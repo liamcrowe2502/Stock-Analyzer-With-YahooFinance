@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Seperated the files more so only the joining of data combined is in main.py." />
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Changes Sheet1 name to Dividends">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,7 @@
   "keyToString": {
     "Python.Stock_Analyzer.executor": "Run",
     "Python.excel_files_creations.executor": "Run",
+    "Python.format_excel.executor": "Run",
     "Python.main.executor": "Run",
     "Python.stock_analyser.executor": "Run",
     "Python.testing.executor": "Run",
@@ -187,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717086148199</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changes Sheet1 name to Dividends">
+      <option name="closed" value="true" />
+      <created>1717086559348</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717086559348</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +219,7 @@
     <MESSAGE value="Stretched the data cells to be more readable." />
     <MESSAGE value="Seperated formatting the excel files, the creation of excel files into own files" />
     <MESSAGE value="Seperated the files more so only the joining of data combined is in main.py." />
-    <option name="LAST_COMMIT_MESSAGE" value="Seperated the files more so only the joining of data combined is in main.py." />
+    <MESSAGE value="Changes Sheet1 name to Dividends" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes Sheet1 name to Dividends" />
   </component>
 </project>
