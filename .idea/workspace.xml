@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Stretched the data cells to be more readable.">
-      <change afterPath="$PROJECT_DIR$/stock_analyser.py" afterDir="false" />
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Seperated formatting the excel files, the creation of excel files into own files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple_data_dividends.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_balance_sheet.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_cashflow_statement.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apple_data_quarterly_income_statement.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock_Analyzer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_analyser.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,8 @@
   "keyToString": {
     "Python.Stock_Analyzer.executor": "Run",
     "Python.excel_files_creations.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.stock_analyser.executor": "Run",
     "Python.testing.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -177,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715982227778</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Seperated formatting the excel files, the creation of excel files into own files">
+      <option name="closed" value="true" />
+      <created>1717084934027</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717084934027</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +201,7 @@
     <MESSAGE value="Moved bal, income, cashflow to separate sheet" />
     <MESSAGE value="Deleted bal, income, cashflow from first sheet" />
     <MESSAGE value="Stretched the data cells to be more readable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stretched the data cells to be more readable." />
+    <MESSAGE value="Seperated formatting the excel files, the creation of excel files into own files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seperated formatting the excel files, the creation of excel files into own files" />
   </component>
 </project>
