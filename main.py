@@ -8,7 +8,8 @@ from excel_files_creations import (
 from format_excel import stretch_columns_and_move_data
 
 # Define the ticker
-aapl = yf.Ticker("MSFT")
+#aapl = yf.Ticker("MSFT")
+aapl = yf.Ticker(input("Please Enter Ticker Symbol: "))
 
 # Define folder and file paths
 folder_path = 'D:\\CodeProjects\\Python\\Stock-Analyzer-With-YahooFinance'

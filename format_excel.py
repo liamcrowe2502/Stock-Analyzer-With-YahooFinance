@@ -16,7 +16,9 @@ def stretch_columns_and_move_data(file_path):
 
     # Move data from "Dividends" to "Extracted_Data"
     for row in ws.iter_rows(min_row=1, max_row=ws.max_row, min_col=3, max_col=ws.max_column):
-        new_ws.append([cell.value for cell in row])
+        # Check if the row has any non-empty cell
+        if any(cell.value is not None for cell in row):
+            new_ws.append([cell.value for cell in row])
 
     # Clear the data in columns C and beyond in the "Dividends" sheet
     for row in ws.iter_rows(min_row=1, max_row=ws.max_row, min_col=3, max_col=ws.max_column):
