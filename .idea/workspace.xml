@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Changes Sheet1 name to Dividends">
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Changed Sheet1 name to Dividends">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_combined.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/format_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/format_excel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Stock_Analyzer.executor": "Run",
-    "Python.excel_files_creations.executor": "Run",
-    "Python.format_excel.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.stock_analyser.executor": "Run",
-    "Python.testing.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/CodeProjects/Python/Stock-Analyzer-With-YahooFinance",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Stock_Analyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.excel_files_creations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.format_excel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stock_analyser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeProjects/Python/Stock-Analyzer-With-YahooFinance&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -198,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717086559348</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changed Sheet1 name to Dividends">
+      <option name="closed" value="true" />
+      <created>1717087346799</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717087346799</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +230,7 @@
     <MESSAGE value="Seperated formatting the excel files, the creation of excel files into own files" />
     <MESSAGE value="Seperated the files more so only the joining of data combined is in main.py." />
     <MESSAGE value="Changes Sheet1 name to Dividends" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes Sheet1 name to Dividends" />
+    <MESSAGE value="Changed Sheet1 name to Dividends" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Sheet1 name to Dividends" />
   </component>
 </project>

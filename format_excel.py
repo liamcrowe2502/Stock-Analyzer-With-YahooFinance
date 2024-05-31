@@ -7,32 +7,26 @@ def stretch_columns_and_move_data(file_path):
     ws = wb.active
     ws.title = "Dividends"
 
-    # Set column widths
-    column_widths = {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20, 'F': 20, 'G': 20, 'H': 20}
-    for col, width in column_widths.items():
-        ws.column_dimensions[col].width = width
+    # Set column widths for the "Dividends" sheet
+    ws.column_dimensions['A'].width = 20
+    ws.column_dimensions['B'].width = 20
 
     # Create and prepare "Extracted_Data" sheet
     new_ws = wb.create_sheet(title='Extracted_Data')
-    headers = [cell.value for cell in ws[1][2:8]]
-    new_ws.append(headers)
 
     # Move data from "Dividends" to "Extracted_Data"
-    for row in ws.iter_rows(min_row=85, max_row=233, min_col=3, max_col=8):
+    for row in ws.iter_rows(min_row=1, max_row=ws.max_row, min_col=3, max_col=ws.max_column):
         new_ws.append([cell.value for cell in row])
 
-    # Clear the original data in "Dividends"
-    for cell in ws.iter_cols(min_col=3, max_col=8, min_row=1, max_row=1):
-        for c in cell:
-            c.value = None
-
-    for row in ws.iter_rows(min_row=85, max_row=233, min_col=3, max_col=8):
+    # Clear the data in columns C and beyond in the "Dividends" sheet
+    for row in ws.iter_rows(min_row=1, max_row=ws.max_row, min_col=3, max_col=ws.max_column):
         for cell in row:
             cell.value = None
 
     # Set column widths for "Extracted_Data" sheet
-    for col, width in column_widths.items():
-        new_ws.column_dimensions[col].width = width
+    for col in range(1, new_ws.max_column + 1):
+        col_letter = new_ws.cell(row=1, column=col).column_letter
+        new_ws.column_dimensions[col_letter].width = 20
 
     # Save the workbook
     wb.save(file_path)
