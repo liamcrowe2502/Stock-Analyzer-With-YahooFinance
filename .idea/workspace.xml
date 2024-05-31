@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Made it so no matter the stock the extracted data will transfer over to that sheet correctly">
+    <list default="true" id="be36f6dc-5344-4e3c-9cf7-2f7861bd4cfc" name="Changes" comment="Issue with row separation in Extracted_data, now fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/format_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/format_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717197706020</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Issue with row separation in Extracted_data, now fixed">
+      <option name="closed" value="true" />
+      <created>1717198342147</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717198342147</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,6 +248,7 @@
     <MESSAGE value="Changes Sheet1 name to Dividends" />
     <MESSAGE value="Changed Sheet1 name to Dividends" />
     <MESSAGE value="Made it so no matter the stock the extracted data will transfer over to that sheet correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made it so no matter the stock the extracted data will transfer over to that sheet correctly" />
+    <MESSAGE value="Issue with row separation in Extracted_data, now fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Issue with row separation in Extracted_data, now fixed" />
   </component>
 </project>
